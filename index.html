@@ -1,0 +1,29 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Web to API Project</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="css/style.css?v=1.0">
+
+</head>
+
+<body onload="getAPI()">
+  <section class="pagetop">
+    <h1>Welcome to the API to Web Project</h1>
+    <p>This page is a test and will be constantly updating as I learn more about how to embed dynamic, API-driven content into a web page.</p>
+    <p>API content will appear below when updated!</p>
+    <button type="button" name="apibutton" onclick="getAPI()">Refresh</button>
+  </section>
+  <section class="blogpost">
+    <div id="todaydate"></div>
+    <div id="apititle"></div>
+    <div id="apibody"></div>
+  </section>
+  <script src="js/main.js"></script>
+</body>
+</html>
