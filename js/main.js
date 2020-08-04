@@ -8,7 +8,6 @@ function getAPI() {
 
   // Make the API call
   var postId = Math.floor(Math.random() * 100) + 1;
-  var today = new Date();
   var json = fetch('https://jsonplaceholder.typicode.com/posts/' + postId)
   .then(
     function(response) {
