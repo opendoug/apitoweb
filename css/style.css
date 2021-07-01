@@ -30,8 +30,10 @@ button {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
-button:focus {
-  outline: 0;
+button:active {
+  transform: scale(0.98);
+  background-color: #2a6d2c; /* Dark Green */
+  box-shadow: 0 10px 12px 0 rgba(0,0,0,0.24), 0 15px 40px 0 rgba(0,0,0,0.19);
 }
 
 .pagetop {
