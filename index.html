@@ -5,8 +5,8 @@
   <meta charset="utf-8">
 
   <title>Web to API Project</title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
+  <meta name="description" content="Web to API Project">
+  <meta name="author" content="Doug Walters">
 
   <link rel="stylesheet" href="css/style.css?v=1.0">
 
@@ -15,6 +15,7 @@
 <body onload="getAPI()">
   <section class="pagetop">
     <h1>Welcome to the API to Web Project</h1>
+    <h2>This page is hosted on a Raspberry Pi running NGINX and using No-IP for DNS.</h2>
     <p>This page is a test and will be constantly updating as I learn more about how to embed dynamic, API-driven content into a web page.</p>
     <p>API content will appear below when updated!</p>
     <button type="button" name="apibutton" onclick="getAPI()">Refresh</button>
@@ -24,6 +25,16 @@
     <div id="apititle"></div>
     <div id="apibody"></div>
   </section>
+  <section class="twitter">
+    <h2>Check out my Twitter feed</h2>
+    <a class="twitter-timeline" href="https://twitter.com/d0rk0fy0rk?ref_src=twsrc%5Etfw">
+    Tweets by d0rk0fy0rk</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
+    </script>
+  </section>
+  <section class="footer">
+    <br><br><br><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Doug's website</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://waltershome.ddns.net" property="cc:attributionName" rel="cc:attributionURL">Doug Walters</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="https://waltershome.ddns.net" rel="dct:source">https://waltershome.ddns.net</a>.
+  </section>
   <script src="js/main.js"></script>
+
 </body>
 </html>

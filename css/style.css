@@ -14,7 +14,14 @@ Use it to make something cool, have fun, and share what you've learned with othe
 */
 
 body {
-  background-color: dimgray;
+  background: rgb(56,51,51);
+  background: linear-gradient(176deg, rgba(56,51,51,1) 0%, rgba(104,104,124,1) 57%, rgba(101,104,172,1) 87%);
+  margin-top: 25px;
+}
+
+.pagetop {
+  color: white;
+  text-align: center;
 }
 
 button {
@@ -36,14 +43,11 @@ button:active {
   box-shadow: 0 10px 12px 0 rgba(0,0,0,0.24), 0 15px 40px 0 rgba(0,0,0,0.19);
 }
 
-.pagetop {
-  color: white;
-}
-
 .blogpost {
-  margin-top: 25px;
+  margin: 25px auto;
   padding: 25px;
   width: 66%;
+  text-align: center;
   border: 5px black;
   border-radius: 15px;
   background-color: white;
@@ -71,4 +75,21 @@ button:active {
   font-weight: normal;
   margin: 10px;
   padding: 15px;
+}
+
+.twitter {
+  margin: 25px auto;
+  width: 66%;
+  color: white;
+  text-align: center;
+}
+
+.footer {
+  margin-top: 25px;
+  text-align: center;
+  height: 150px;
+  background-image: url(../images/wpid-clouds-border1.png) !important;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
 }
